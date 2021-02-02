@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .button
+        {
+            border: none;
+            color: white;
+            width: 400px;
+            height: 100px;
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        .buttonTest{background-color: coral;}
+    </style>
+</head>
+<body>
+
+<h2 id='head'>Decks</h2>
+<p id='buttons'></p>
+
+<script>
+    var jsonOfDecks = {"decks": [
+        {
+            "index": "1",
+            "name": "Young Players",
+            "color": "lightblue",
+            "categories": [
+                {
+                    "name": "People & Places",
+                    "color": "blue"
+                },
+                {
+                    "name": "Good Times",
+                    "color": "pink"
+                },
+                {
+                    "name": "Science & Technology",
+                    "color": "gold"
+                },
+                {
+                    "name": "Art & Culture",
+                    "color": "brown"
+                },
+                {
+                    "name": "Natural World",
+                    "color": "green"
+                },
+                {
+                    "name": "Games & Hobbies",
+                    "color": "orange"
+                }
+            ]
+        },
+        {
+            "index": "2",
+            "name": "Star Wars",
+            "color": "gold"
+        }
+    ]};
+    function ClearChildren(){
+        for(var child in document.body.childNodes){
+            console.log(typeof child)
+            document.body.removeChild(child)
+        }
+    }
+    function DisplayCategories(deckIndex){
+        document.getElementById("head").textContent = "Categories";
+        document.getElementById("buttons").innerHTML = '';
+        var categories = decks[deckIndex].categories;
+        var numOfCategories = categories.length;
+        for (i = 0; i < numOfCategories; i++){
+            var element = document.createElement("button");
+            element.setAttribute("class", "button buttonTest");
+            element.style.backgroundColor = categories[i]["color"];
+            element.textContent = categories[i]["name"];
+
+            //element.onclick = (function(i){return function (){
+            //    DisplayCategories(i)
+            //}; })(i);
+
+            document.getElementById("buttons").appendChild(element)
+        }
+    }
+
+    var decks = jsonOfDecks["decks"];
+    var numOfDecks = decks.length;
+    for (i = 0; i < numOfDecks; i++){
+        var element = document.createElement("button");
+        element.setAttribute("class", "button buttonTest");
+        element.style.backgroundColor = decks[i]["color"];
+        element.textContent = decks[i]["name"];
+
+        element.onclick = (function(i){return function (){
+            DisplayCategories(i)
+        }; })(i);
+
+        document.getElementById("buttons").appendChild(element);
+    }
+</script>
+</body>
+</html>
