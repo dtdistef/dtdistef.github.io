@@ -62,7 +62,9 @@
         document.getElementById("head").textContent = "Categories";
         document.getElementById("buttons").innerHTML = '';
         var numOfCategories = categories.length;
+        console.log(numOfCategories)
         for (i = 0; i < numOfCategories; i++){
+            console.log(i)
             var element = document.createElement("button");
             element.setAttribute("class", "button buttonTest");
             element.style.backgroundColor = categories[i]["color"];
