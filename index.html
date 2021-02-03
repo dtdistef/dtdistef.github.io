@@ -58,9 +58,10 @@
         }
     }
     
-    function DisplayCategories(categories){
+    function DisplayCategories(jsonCategories){
         document.getElementById("head").textContent = "Categories";
         document.getElementById("buttons").innerHTML = '';
+        var categories = jsonCategories.categories;
         var numOfCategories = categories.length;
         console.log(numOfCategories)
         for (i = 0; i < numOfCategories; i++){
