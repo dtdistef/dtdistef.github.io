@@ -77,6 +77,17 @@
 
             document.getElementById("buttons").appendChild(element)
         }
+
+        var element = document.createElement("button");
+        element.setAttribute("class", "button buttonTest");
+        element.style.backgroundColor = "black"
+        element.textContent = "Back";
+
+        element.onclick = (function(i){return function (){
+            GetJson()
+        }; })(i);
+        
+        document.getElementById("buttons").appendChild(element)
     }
 
     GetJson();
