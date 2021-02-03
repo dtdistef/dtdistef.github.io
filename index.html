@@ -6,8 +6,8 @@
         {
             border: none;
             color: white;
-            width: 20%;
-            height: 80%;
+            width: 400px;
+            height: 100px;
             text-align: center;
             text-decoration: none;
             display: block;
@@ -49,6 +49,8 @@
             var element = document.createElement("button");
             element.setAttribute("class", "button buttonTest");
             element.style.backgroundColor = decks[i]["color"];
+            element.style.width = window.innerWidth * .80;
+            element.style.height = window.innerHeight * .15
             element.textContent = decks[i]["name"];
 
             element.onclick = (function(i){return function (){
@@ -68,6 +70,8 @@
             var element = document.createElement("button");
             element.setAttribute("class", "button buttonTest");
             element.style.backgroundColor = categories[i]["color"];
+            element.style.width = window.innerWidth * .80;
+            element.style.height = window.innerHeight * .15
             element.textContent = categories[i]["name"];
 
             //element.onclick = (function(i){return function (){
