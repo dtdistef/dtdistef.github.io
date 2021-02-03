@@ -26,15 +26,9 @@
 <script>
     //Test fetching the json file from github server
     var jsonOfDecks = 
-    fetch("./listOfDecks.json")
-    .then(function (resp){
-        return resp.json();
-    }).then(function(data){
-        //console.log(data)
-        return data;
-    });
-    console.log(jsonOfDecks)
-    var decks = jsonOfDecks.decks;
+    fetch("./listOfDecks.json");
+    console.log(jsonOfDecks.json())
+    var decks = jsonOfDecks.pr
     console.log(decks)
     var numOfDecks = decks.length;
 
