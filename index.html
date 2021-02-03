@@ -25,13 +25,13 @@
 
 <script>
     //Test fetching the json file from github server
-    var jsonOfDecks;
+    var jsonOfDecks = 
     fetch("./listOfDecks.json")
     .then(function (resp){
         return resp.json();
     }).then(function(data){
         console.log(data)
-        jsonOfDecks = data;
+        return data;
     });
     /*var jsonOfDecks = {"decks": [
         {
