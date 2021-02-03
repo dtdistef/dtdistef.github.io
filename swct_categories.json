@@ -1,0 +1,28 @@
+{
+    "categories": [
+        {
+            "name": "Characters",
+            "color": "purple"
+        },
+        {
+            "name": "Weapons & Vehicles",
+            "color": "blue"
+        },
+        {
+            "name": "History",
+            "color": "gold"
+        },
+        {
+            "name": "Geography",
+            "color": "green"
+        },
+        {
+            "name": "Droids, Creatures, & Aliens",
+            "color": "orange"
+        },
+        {
+            "name": "Wild Card",
+            "color": "pink"
+        }
+    ]
+}
