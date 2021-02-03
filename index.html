@@ -49,11 +49,8 @@
             var element = document.createElement("button");
             element.setAttribute("class", "button buttonTest");
             element.style.backgroundColor = decks[i]["color"];
-            element.style.width = window.innerWidth * .80;
-            element.style.height = window.innerHeight * .15
-            element.width = window.innerWidth * .80;
-            element.height = window.innerHeight * .15
-            
+            element.style.width = (window.innerWidth * .80) + 'px';
+            element.style.height = (window.innerHeight * .15) + 'px';
             element.textContent = decks[i]["name"];
 
             element.onclick = (function(i){return function (){
@@ -73,10 +70,8 @@
             var element = document.createElement("button");
             element.setAttribute("class", "button buttonTest");
             element.style.backgroundColor = categories[i]["color"];
-            element.style.width = window.innerWidth * .80;
-            element.style.height = window.innerHeight * .15
-            element.width = window.innerWidth * .80;
-            element.height = window.innerHeight * .15
+            element.style.width = (window.innerWidth * .80) + 'px';
+            element.style.height = (window.innerHeight * .15) + 'px';
             element.textContent = categories[i]["name"];
 
             //element.onclick = (function(i){return function (){
