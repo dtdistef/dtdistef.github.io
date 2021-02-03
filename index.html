@@ -29,12 +29,27 @@
         let fetch_response = await fetch("./listOfDecks.json");
         let data = await fetch_response.json();
         console.log(data);
-        return data;
+
+        PopulateScreen(data)
     }
-    var jsonOfDecks = GetJson();
-    console.log(jsonOfDecks);
-    var decks = jsonOfDecks.decks;
-    var numOfDecks = decks.length;
+
+    function PopulateScreen(jsonOfDecks){
+            var decks = jsonOfDecks.decks;
+            var numOfDecks = decks.length;
+
+            for (i = 0; i < numOfDecks; i++){
+            var element = document.createElement("button");
+            element.setAttribute("class", "button buttonTest");
+            element.style.backgroundColor = decks[i]["color"];
+            element.textContent = decks[i]["name"];
+
+            element.onclick = (function(i){return function (){
+                DisplayCategories(i)
+            }; })(i);
+
+            document.getElementById("buttons").appendChild(element);
+        }
+    }
 
     /*var jsonOfDecks = {"decks": [
         {
@@ -99,18 +114,7 @@
         }
     }
 
-    for (i = 0; i < numOfDecks; i++){
-        var element = document.createElement("button");
-        element.setAttribute("class", "button buttonTest");
-        element.style.backgroundColor = decks[i]["color"];
-        element.textContent = decks[i]["name"];
-
-        element.onclick = (function(i){return function (){
-            DisplayCategories(i)
-        }; })(i);
-
-        document.getElementById("buttons").appendChild(element);
-    }
+    GetJson();
 </script>
 </body>
 </html>
