@@ -51,6 +51,9 @@
             element.style.backgroundColor = decks[i]["color"];
             element.style.width = window.innerWidth * .80;
             element.style.height = window.innerHeight * .15
+            element.width = window.innerWidth * .80;
+            element.height = window.innerHeight * .15
+            
             element.textContent = decks[i]["name"];
 
             element.onclick = (function(i){return function (){
@@ -72,6 +75,8 @@
             element.style.backgroundColor = categories[i]["color"];
             element.style.width = window.innerWidth * .80;
             element.style.height = window.innerHeight * .15
+            element.width = window.innerWidth * .80;
+            element.height = window.innerHeight * .15
             element.textContent = categories[i]["name"];
 
             //element.onclick = (function(i){return function (){
