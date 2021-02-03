@@ -29,22 +29,23 @@
         let fetch_response = await fetch("./listOfDecks.json");
         let data = await fetch_response.json();
 
-        PopulateScreen(data)
+        DisplayDecks(data)
     }
 
     async function GetCategories(file_name){
         let fetch_response = await fetch(file_name);
         let data = await fetch_response.json();
-        console.log(data)
 
         DisplayCategories(data)
     }
 
-    function PopulateScreen(jsonOfDecks){
-            var decks = jsonOfDecks.decks;
-            var numOfDecks = decks.length;
+    function DisplayDecks(jsonOfDecks){
+        document.getElementById("head").textContent = "Decks";
+        document.getElementById("buttons").innerHTML = '';
+        var decks = jsonOfDecks.decks;
+        var numOfDecks = decks.length;
 
-            for (i = 0; i < numOfDecks; i++){
+        for (i = 0; i < numOfDecks; i++){
             var element = document.createElement("button");
             element.setAttribute("class", "button buttonTest");
             element.style.backgroundColor = decks[i]["color"];
@@ -63,7 +64,6 @@
         document.getElementById("buttons").innerHTML = '';
         var categories = jsonCategories.categories;
         var numOfCategories = categories.length;
-        console.log(numOfCategories)
         for (i = 0; i < numOfCategories; i++){
             console.log(i)
             var element = document.createElement("button");
