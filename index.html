@@ -24,6 +24,13 @@
 <p id='buttons'></p>
 
 <script>
+    //Test fetching the json file from github server
+    fetch("./listOfDecks.json")
+    .then(function (resp){
+        return resp.json();
+    }).then(function(data){
+        console.log(data)
+    });
     var jsonOfDecks = {"decks": [
         {
             "index": "1",

@@ -1,0 +1,16 @@
+{
+    "decks": [
+        {
+            "name": "Young Players Edition",
+            "color": "blue",
+            "categories_file": "ype_categories.json",
+            "questions_file": "ype_questions.json"
+        },
+        {
+            "name": "Star Wars: Classic Trilogy",
+            "color": "gold",
+            "categories_file": "swct_categories.json",
+            "questions_file": "swct_questions.json"
+        }
+    ]
+}
