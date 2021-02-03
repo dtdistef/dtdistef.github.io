@@ -30,9 +30,14 @@
     .then(function (resp){
         return resp.json();
     }).then(function(data){
-        console.log(data)
+        //console.log(data)
         return data;
     });
+    console.log(jsonOfDecks)
+    var decks = jsonOfDecks.decks;
+    console.log(decks)
+    var numOfDecks = decks.length;
+
     /*var jsonOfDecks = {"decks": [
         {
             "index": "1",
@@ -96,8 +101,6 @@
         }
     }
 
-    var decks = jsonOfDecks["decks"];
-    var numOfDecks = decks.length;
     for (i = 0; i < numOfDecks; i++){
         var element = document.createElement("button");
         element.setAttribute("class", "button buttonTest");
