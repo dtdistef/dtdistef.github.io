@@ -25,13 +25,15 @@
 
 <script>
     //Test fetching the json file from github server
+    var jsonOfDecks;
     fetch("./listOfDecks.json")
     .then(function (resp){
         return resp.json();
     }).then(function(data){
         console.log(data)
+        jsonOfDecks = data;
     });
-    var jsonOfDecks = {"decks": [
+    /*var jsonOfDecks = {"decks": [
         {
             "index": "1",
             "name": "Young Players",
@@ -68,7 +70,7 @@
             "name": "Star Wars",
             "color": "gold"
         }
-    ]};
+    ]};*/
     function ClearChildren(){
         for(var child in document.body.childNodes){
             console.log(typeof child)
