@@ -1,0 +1,28 @@
+{
+    "categories": [
+        {
+            "name": "People & Places",
+            "color": "blue"
+        },
+        {
+            "name": "Good Times",
+            "color": "pink"
+        },
+        {
+            "name": "Science & Technology",
+            "color": "gold"
+        },
+        {
+            "name": "Art & Culture",
+            "color": "brown"
+        },
+        {
+            "name": "Natural World",
+            "color": "green"
+        },
+        {
+            "name": "Games & Hobbies",
+            "color": "orange"
+        }
+    ]
+}

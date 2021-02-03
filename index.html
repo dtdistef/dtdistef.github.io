@@ -28,9 +28,16 @@
     async function GetJson(){
         let fetch_response = await fetch("./listOfDecks.json");
         let data = await fetch_response.json();
-        console.log(data);
 
         PopulateScreen(data)
+    }
+
+    async function GetCategories(file_name){
+        let fetch_response = await fetch(file_name);
+        let data = await fetch_response.json();
+        console.log(data)
+
+        DisplayCategories(data)
     }
 
     function PopulateScreen(jsonOfDecks){
@@ -44,61 +51,16 @@
             element.textContent = decks[i]["name"];
 
             element.onclick = (function(i){return function (){
-                DisplayCategories(i)
+                GetCategories(decks[i].categories_file)
             }; })(i);
 
             document.getElementById("buttons").appendChild(element);
         }
     }
-
-    /*var jsonOfDecks = {"decks": [
-        {
-            "index": "1",
-            "name": "Young Players",
-            "color": "lightblue",
-            "categories": [
-                {
-                    "name": "People & Places",
-                    "color": "blue"
-                },
-                {
-                    "name": "Good Times",
-                    "color": "pink"
-                },
-                {
-                    "name": "Science & Technology",
-                    "color": "gold"
-                },
-                {
-                    "name": "Art & Culture",
-                    "color": "brown"
-                },
-                {
-                    "name": "Natural World",
-                    "color": "green"
-                },
-                {
-                    "name": "Games & Hobbies",
-                    "color": "orange"
-                }
-            ]
-        },
-        {
-            "index": "2",
-            "name": "Star Wars",
-            "color": "gold"
-        }
-    ]};*/
-    function ClearChildren(){
-        for(var child in document.body.childNodes){
-            console.log(typeof child)
-            document.body.removeChild(child)
-        }
-    }
-    function DisplayCategories(deckIndex){
+    
+    function DisplayCategories(categories){
         document.getElementById("head").textContent = "Categories";
         document.getElementById("buttons").innerHTML = '';
-        var categories = decks[deckIndex].categories;
         var numOfCategories = categories.length;
         for (i = 0; i < numOfCategories; i++){
             var element = document.createElement("button");
