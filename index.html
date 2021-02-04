@@ -80,11 +80,13 @@
 
         localStorage[symbol] = question_num + 1
 
-        document.getElementById("head").textContent = "Question:";
+        document.getElementById("head").textContent = "";
+        var question_head = document.createElement("div");
+        question_head.innerHTML = "Question:".bold();
         var question_text = document.createElement("div");
         question_text.innerHTML = question;
         var answer_head = document.createElement("div");
-        answer_head.innerHTML = 'Answer:'
+        answer_head.innerHTML = 'Answer:'.bold()
         var answer_text = document.createElement("div");
         answer_text.innerHTML = answer;
 
