@@ -4,7 +4,7 @@
     <style>
         .grid-container {
             display: grid;
-            grid-template-columns: 5fr 2fr;;
+            grid-template-columns: 5fr 2fr;
             grid-gap: 10px;
             background-color: #2196F3;
             padding: 10px;
@@ -17,7 +17,6 @@
             font-size: 16px;
             cursor: pointer;
         }
-
     </style>
 </head>
 <body>
@@ -44,6 +43,7 @@
     function DisplayDecks(jsonOfDecks){
         document.getElementById("head").textContent = "Decks";
         document.getElementById("buttons").innerHTML = '';
+        document.getElementById("buttons").setAttribute("grid-template-columns", "1fr 1fr")
         var decks = jsonOfDecks.decks;
         var numOfDecks = decks.length;
 
@@ -66,6 +66,7 @@
     function DisplayCategories(jsonCategories){
         document.getElementById("head").textContent = "Categories";
         document.getElementById("buttons").innerHTML = '';
+        document.getElementById("buttons").setAttribute("grid-template-columns", "5fr 1fr")
         var categories = jsonCategories.categories;
         var numOfCategories = categories.length;
         for (i = 0; i < numOfCategories; i++){
