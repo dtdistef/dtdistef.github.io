@@ -2,26 +2,32 @@
     "categories": [
         {
             "name": "Characters",
+            "symbol": "swct_CH",
             "color": "purple"
         },
         {
             "name": "Weapons & Vehicles",
+            "symbol": "swct_WV",
             "color": "blue"
         },
         {
             "name": "History",
+            "symbol": "swct_HIS",
             "color": "gold"
         },
         {
             "name": "Geography",
+            "symbol": "swct_GEO",
             "color": "green"
         },
         {
             "name": "Droids, Creatures, & Aliens",
+            "symbol": "swct_DCA",
             "color": "orange"
         },
         {
             "name": "Wild Card",
+            "symbol": "swct_WC",
             "color": "pink"
         }
     ]

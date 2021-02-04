@@ -1,0 +1,193 @@
+{
+    "cards": [
+        {
+            "number": "0",
+            "ype_PP": {
+                "question": "",
+                "answer": ""
+            },
+            "ype_GT": {
+                "question": "",
+                "answer": ""
+            },
+            "ype_ST": {
+                "question": "",
+                "answer": ""
+            },
+            "ype_AC": {
+                "question": "",
+                "answer": ""
+            },
+            "ype_NW": {
+                "question": "",
+                "answer": ""
+            },
+            "ype_GH": {
+                "question": "",
+                "answer": ""
+            }
+        },
+        {
+            "number": "251",
+            "ype_PP": {
+                "question": "What island are you on if you're in Montego Bay?",
+                "answer": "Jamaica"
+            },
+            "ype_GT": {
+                "question": "What superheroine was known as Princess Diana before she left Paradise Island?",
+                "answer": "Wonder Woman"
+            },
+            "ype_ST": {
+                "question": "What article of clothing is a 'mackintosh', named for Scottish inventor Charles Macintosh?",
+                "answer": "A raincoat"
+            },
+            "ype_AC": {
+                "question": "Which side of a boy's shirt are buttons on?",
+                "answer": "The right"
+            },
+            "ype_NW": {
+                "question": "What animal's name means 'river horse'?",
+                "answer": "The hippopotamus's"
+            },
+            "ype_GH": {
+                "question": "Could the fastest human swimmer keep up with a dolphin over one length of a pool?",
+                "answer": "No"
+            }
+        },
+        {
+            "number": "217",
+            "ype_PP": {
+                "question": "Is the North Pole in Canada?",
+                "answer": "No"
+            },
+            "ype_GT": {
+                "question": "Who's the scientific genius of the Legion of Super-Heroes?",
+                "answer": "Brainiac 5"
+            },
+            "ype_ST": {
+                "question": "What's a 'rood' - a measure of area, distance, or weight?",
+                "answer": "Area"
+            },
+            "ype_AC": {
+                "question": "What shape is a dunce's cap",
+                "answer": "Cone-shaped"
+            },
+            "ype_NW": {
+                "question": "What mammal can hold its breath the longest - the bottle-nosed whale, camel, or raccoon?",
+                "answer": "The bottle-nosed whale (2 hours)"
+            },
+            "ype_GH": {
+                "question": "How much money does a player receive for landing on a Lucky Day space in 'Game of Life'?",
+                "answer": "$10,000"
+            }
+        },
+        {
+            "number": "120",
+            "ype_PP": {
+                "question": "Which Louis reigned as King of France for a record 72 years - Louis XIV, XV, or XVI?",
+                "answer": "Louis XIV"
+            },
+            "ype_GT": {
+                "question": "What musical candies does Dr. Potts invent in the movie 'Chitty Chitty Bang Bang'?",
+                "answer": "Toot Sweets"
+            },
+            "ype_ST": {
+                "question": "Where's an 'amphicar' designed for traveling - on land and in the water, in space or in the Arctic?",
+                "answer": "On land and in the water"
+            },
+            "ype_AC": {
+                "question": "What's Gitchi Manitou - an Algonquin god, an Indian feast dish or an Eskimo medicine man?",
+                "answer": "An Algonquin God"
+            },
+            "ype_NW": {
+                "question": "How many times a year does the human heart beat - more than 16 million, 26 million, or 36 million",
+                "answer": "More than 36 million"
+            },
+            "ype_GH": {
+                "question": "How many cards are there in a Uno deck?",
+                "answer": "108"
+            }
+        },
+        {
+            "number": "160",
+            "ype_PP": {
+                "question": "What language does 'merci' mean 'thank you' in?",
+                "answer": "French"
+            },
+            "ype_GT": {
+                "question": "What famed Russian ballet dancer appeared in the movie 'The Turning Point'?",
+                "answer": "Mikhail Baryshnikov"
+            },
+            "ype_ST": {
+                "question": "What's a 'sampan' usually powered by - a long pole, an outboard motor or two short oars?",
+                "answer": "Two short oars"
+            },
+            "ype_AC": {
+                "question": "What color rabbit doe Alice follow down the hole to Wonderland?",
+                "answer": "White"
+            },
+            "ype_NW": {
+                "question": "How many bones do most cats have in their tails - 10, 15, or 20?",
+                "answer": "Twenty"
+            },
+            "ype_GH": {
+                "question": "What toy 'cracks the whip', does a 'front flip', and 'goes over the mountain'?",
+                "answer": "The yo-yo"
+            }
+        },
+        {
+            "number": "297",
+            "ype_PP": {
+                "question": "What state's captial is Concord?",
+                "answer": "New Hampshire's"
+            },
+            "ype_GT": {
+                "question": "What fish are often used as a topping on pizzas?",
+                "answer": "Anchovies"
+            },
+            "ype_ST": {
+                "question": "Does the Earth, viewed from above the North Pole, move in a clockwise or counterclockwise direction?",
+                "answer": "Counterclockwise"
+            },
+            "ype_AC": {
+                "question": "What Jewish holiday commemorates the freeing of Isrealites from slavery in Egypt?",
+                "answer": "Passover"
+            },
+            "ype_NW": {
+                "question": "What kind of tigers lived in prehistoric times?",
+                "answer": "Saber-toothed tigers"
+            },
+            "ype_GH": {
+                "question": "What kind of hobbyist uses a draw knife?",
+                "answer": "A woodworker"
+            }
+        },
+        {
+            "number": "180",
+            "ype_PP": {
+                "question": "What city did Gustave Eiffel build a tower in?",
+                "answer": "Paris"
+            },
+            "ype_GT": {
+                "question": "What circus performers are called 'Joeys'?",
+                "answer": "Clowns"
+            },
+            "ype_ST": {
+                "question": "What's the term for the hole that's made when a meteor hits a planet or moon?",
+                "answer": "Crater"
+            },
+            "ype_AC": {
+                "question": "What fat, sea-going animal does ALice hear about in 'Through the Looking Glass'?",
+                "answer": "The walrus"
+            },
+            "ype_NW": {
+                "question": "How many legs does a slowworm lizard have?",
+                "answer": "Zero (It looks like a work)"
+            },
+            "ype_GH": {
+                "question": "Which kind of skiers ski against the clock through a series of 'gates' - cross country skiers or slalom racers?",
+                "answer": "Slalom racers"
+            }
+        }
+    ]
+}
