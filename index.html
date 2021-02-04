@@ -69,7 +69,7 @@
         var question_num = Number(localStorage[symbol]);
         var cards = data.cards;
         document.getElementById("buttons").innerHTML = '';
-        document.getElementById("buttons").style.gridTemplateColumns = "1fr 1fr"
+        document.getElementById("buttons").style.gridTemplateColumns = "1fr"
         //If the card is outside the range of the deck
         if(question_num > cards.length){
             question_num = 0;
@@ -107,7 +107,7 @@
     function DisplayDecks(jsonOfDecks){
         document.getElementById("head").textContent = "Decks";
         document.getElementById("buttons").innerHTML = '';
-        document.getElementById("buttons").style.gridTemplateColumns = "1fr"
+        document.getElementById("buttons").style.gridTemplateColumns = "1fr 1fr"
         var decks = jsonOfDecks.decks;
         var numOfDecks = decks.length;
 
