@@ -1,33 +1,6 @@
 {
     "cards": [
         {
-            "number": "0",
-            "ype_PP": {
-                "question": "",
-                "answer": ""
-            },
-            "ype_GT": {
-                "question": "",
-                "answer": ""
-            },
-            "ype_ST": {
-                "question": "",
-                "answer": ""
-            },
-            "ype_AC": {
-                "question": "",
-                "answer": ""
-            },
-            "ype_NW": {
-                "question": "",
-                "answer": ""
-            },
-            "ype_GH": {
-                "question": "",
-                "answer": ""
-            }
-        },
-        {
             "number": "251",
             "ype_PP": {
                 "question": "What island are you on if you're in Montego Bay?",
