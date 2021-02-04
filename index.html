@@ -43,7 +43,7 @@
     function DisplayDecks(jsonOfDecks){
         document.getElementById("head").textContent = "Decks";
         document.getElementById("buttons").innerHTML = '';
-        document.getElementById("buttons").setAttribute("grid-template-columns", "1fr 1fr")
+        document.getElementById("buttons").style.gridTemplateColumns = "1fr 1fr"
         var decks = jsonOfDecks.decks;
         var numOfDecks = decks.length;
 
@@ -66,7 +66,7 @@
     function DisplayCategories(jsonCategories){
         document.getElementById("head").textContent = "Categories";
         document.getElementById("buttons").innerHTML = '';
-        document.getElementById("buttons").setAttribute("grid-template-columns", "5fr 1fr")
+        document.getElementById("buttons").style.gridTemplateColumns = "5fr 1fr"
         var categories = jsonCategories.categories;
         var numOfCategories = categories.length;
         for (i = 0; i < numOfCategories; i++){
