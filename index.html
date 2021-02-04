@@ -90,7 +90,19 @@
 
             element = document.createElement("input");
             element.setAttribute("type", "text");
-            element.value = "0";
+            var symbol = categories[i]["symbol"];
+            if(localStorage.getItem(symbol) == null)
+            {
+                localStorage.setItem(symbol, 0);
+                element.value = "0";
+            }
+            else
+            {
+                element.value = localStorage.getItem(symbol);
+            }
+            element.onchange = (function(element, symbol){return function (){
+                localStorage.setItem(symbol, element.value);
+            }; })(element, sumbol);
             document.getElementById("buttons").appendChild(element);
         }
 
