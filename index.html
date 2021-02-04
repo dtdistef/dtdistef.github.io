@@ -64,6 +64,9 @@
 
     function DisplayQuestion(data, symbol, jsonCategories){
         //Currently selected question number
+        console.log("Symbol: " + symbol)
+        console.log("Categories: " + jsonCategories)
+        con
         var question_num = Number(localStorage[symbol]);
         var cards = data.cards;
         document.getElementById("buttons").innerHTML = '';
