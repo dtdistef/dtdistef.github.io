@@ -58,15 +58,14 @@
     async function GetQuestions(file_name, symbol, jsonCategories){
         let fetch_response = await fetch(file_name);
         let data = await fetch_response.json();
-        console.log(data)
+
         DisplayQuestion(data, symbol, jsonCategories)
     }
 
     function DisplayQuestion(data, symbol, jsonCategories){
         //Currently selected question number
         console.log("Symbol: " + symbol)
-        console.log("Categories: " + jsonCategories)
-        con
+        console.log(jsonCategories)
         var question_num = Number(localStorage[symbol]);
         var cards = data.cards;
         document.getElementById("buttons").innerHTML = '';
@@ -133,13 +132,12 @@
         var categories = jsonCategories.categories;
         var questions_file = jsonCategories.questions_file;
         var numOfCategories = categories.length;
-        var symbol = categories[i]["symbol"];
         for (i = 0; i < numOfCategories; i++){
             var element = document.createElement("button");
             element.style.backgroundColor = categories[i]["color"];
             element.style.fontSize = ((window.innerWidth * .80) / 25) + 'px';
             element.textContent = categories[i]["name"];
-
+            var symbol = categories[i]["symbol"];
             element.onclick = (function(questions_file, symbol, jsonCategories){return function (){
                 GetQuestions(questions_file, symbol, jsonCategories)
             }; })(questions_file, symbol, jsonCategories);
