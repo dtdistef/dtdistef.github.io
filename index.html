@@ -175,7 +175,7 @@
         var element = document.createElement("button");
         element.style.backgroundColor = "black"
         element.textContent = "Back";
-        style.fontSize = ((window.innerWidth * .80) / 25) + 'px';
+        element.style.fontSize = ((window.innerWidth * .80) / 25) + 'px';
 
         element.onclick = (function(i){return function (){
             GetJson()
