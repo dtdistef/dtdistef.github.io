@@ -64,7 +64,7 @@
 
     function DisplayQuestion(data, symbol, jsonCategories){
         //Currently selected question number
-        var question_num = Number(document.getElementById(symbol).value);
+        var question_num = Number(localStorage[symbol]);
         var cards = data.cards;
         document.getElementById("buttons").innerHTML = '';
         document.getElementById("buttons").style.gridTemplateColumns = "1fr 1fr"
@@ -158,7 +158,6 @@
                 localStorage.setItem(symbol, element.value);
             }; })(element, symbol);
 
-            element.setAttribute("id", symbol);
             document.getElementById("buttons").appendChild(element);
         }
 
