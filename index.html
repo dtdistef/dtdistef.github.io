@@ -55,10 +55,10 @@
         DisplayCategories(data)
     }
 
-    async function GetCategories(file_name, symbol, jsonCategories){
+    async function GetQuestions(file_name, symbol, jsonCategories){
         let fetch_response = await fetch(file_name);
         let data = await fetch_response.json();
-
+        console.log(data)
         DisplayQuestion(data, symbol, jsonCategories)
     }
 
