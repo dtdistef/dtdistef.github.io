@@ -102,7 +102,7 @@
             }
             element.onchange = (function(element, symbol){return function (){
                 localStorage.setItem(symbol, element.value);
-            }; })(element, sumbol);
+            }; })(element, symbol);
             document.getElementById("buttons").appendChild(element);
         }
 
