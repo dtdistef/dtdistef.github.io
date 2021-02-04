@@ -2,7 +2,14 @@
 <html>
 <head>
     <style>
-        .button
+        .grid-container {
+            display: grid;
+            grid-template-columns: 5fr 2fr;;
+            grid-gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+        }
+        .grid-container > button
         {
             border: none;
             color: white;
@@ -15,13 +22,13 @@
             margin: 4px 2px;
             cursor: pointer;
         }
-        .buttonTest{background-color: coral;}
+
     </style>
 </head>
 <body>
 
 <h2 id='head'>Decks</h2>
-<p id='buttons'></p>
+<div id='buttons' class="grid-container"></div>
 
 <script>
     //Test fetching the json file from github server
@@ -47,10 +54,9 @@
 
         for (i = 0; i < numOfDecks; i++){
             var element = document.createElement("button");
-            element.setAttribute("class", "button buttonTest");
             element.style.backgroundColor = decks[i]["color"];
-            element.style.width = (window.innerWidth * .80) + 'px';
-            element.style.height = (window.innerHeight * .15) + 'px';
+            //element.style.width = (window.innerWidth * .80) + 'px';
+            //element.style.height = (window.innerHeight * .15) + 'px';
             element.style.fontSize = ((window.innerWidth * .80) / 25) + 'px';
             element.textContent = decks[i]["name"];
 
@@ -69,10 +75,9 @@
         var numOfCategories = categories.length;
         for (i = 0; i < numOfCategories; i++){
             var element = document.createElement("button");
-            element.setAttribute("class", "button buttonTest");
             element.style.backgroundColor = categories[i]["color"];
-            element.style.width = (window.innerWidth * .80) + 'px';
-            element.style.height = (window.innerHeight * .15) + 'px';
+            //element.style.width = (window.innerWidth * .80) + 'px';
+            //element.style.height = (window.innerHeight * .15) + 'px';
             element.style.fontSize = ((window.innerWidth * .80) / 25) + 'px';
             element.textContent = categories[i]["name"];
 
@@ -84,7 +89,6 @@
         }
 
         var element = document.createElement("button");
-        element.setAttribute("class", "button buttonTest");
         element.style.backgroundColor = "black"
         element.textContent = "Back";
 
