@@ -95,7 +95,7 @@
         element.textContent = "Back";
 
         element.onclick = (function(jsonCategories){return function (){
-            GetCategories(jsonCategories)
+            DisplayCategories(jsonCategories)
         }; })(jsonCategories);
         
         document.getElementById("buttons").appendChild(element)
