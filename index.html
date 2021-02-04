@@ -17,6 +17,14 @@
             font-size: 16px;
             cursor: pointer;
         }
+        .grid-container > input
+        {
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 16px;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -50,8 +58,6 @@
         for (i = 0; i < numOfDecks; i++){
             var element = document.createElement("button");
             element.style.backgroundColor = decks[i]["color"];
-            //element.style.width = (window.innerWidth * .80) + 'px';
-            //element.style.height = (window.innerHeight * .15) + 'px';
             element.style.fontSize = ((window.innerWidth * .80) / 25) + 'px';
             element.textContent = decks[i]["name"];
 
@@ -72,8 +78,6 @@
         for (i = 0; i < numOfCategories; i++){
             var element = document.createElement("button");
             element.style.backgroundColor = categories[i]["color"];
-            //element.style.width = (window.innerWidth * .80) + 'px';
-            //element.style.height = (window.innerHeight * .15) + 'px';
             element.style.fontSize = ((window.innerWidth * .80) / 25) + 'px';
             element.textContent = categories[i]["name"];
 
@@ -81,7 +85,12 @@
             //    DisplayCategories(i)
             //}; })(i);
 
-            document.getElementById("buttons").appendChild(element)
+            document.getElementById("buttons").appendChild(element);
+
+            element = document.createElement("input");
+            element.setAttribute("type", "text");
+            element.textContent = "0";
+            document.getElementById("buttons").appendChild(element);
         }
 
         var element = document.createElement("button");
