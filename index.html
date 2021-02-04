@@ -91,6 +91,7 @@
             element = document.createElement("input");
             element.setAttribute("type", "text");
             var symbol = categories[i]["symbol"];
+            console.log(symbol)
             if(localStorage.getItem(symbol) == null)
             {
                 localStorage.setItem(symbol, 0);
@@ -104,7 +105,7 @@
                 console.log("Symbol: " + symbol + "| Value: " + element.value)
                 localStorage.setItem(symbol, element.value);
             }; })(element, symbol);
-            
+
             document.getElementById("buttons").appendChild(element);
         }
 
