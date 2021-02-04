@@ -88,8 +88,9 @@
         var answer_head = document.createElement("div");
         answer_head.innerHTML = 'Answer:'.bold()
         var answer_button = document.createElement("button");
-        answer_button.style.backgroundColor = "grey"
-        answer_button.textContent = "Click to show answer"
+        answer_button.style.backgroundColor = "grey";
+        answer_button.textContent = "Click to show answer";
+        answer_button.style.fontSize = ((window.innerWidth * .80) / 25) + 'px';
 
         answer_button.onclick = (function(answer_button, answer){return function (){
             answer_button.textContent = answer
@@ -101,7 +102,8 @@
         document.getElementById("buttons").appendChild(answer_button);
 
         var element = document.createElement("button");
-        element.style.backgroundColor = "black"
+        element.style.backgroundColor = "black";
+        element.style.fontSize = ((window.innerWidth * .80) / 25) + 'px';
         element.textContent = "Back";
 
         element.onclick = (function(jsonCategories){return function (){
@@ -173,6 +175,7 @@
         var element = document.createElement("button");
         element.style.backgroundColor = "black"
         element.textContent = "Back";
+        style.fontSize = ((window.innerWidth * .80) / 25) + 'px';
 
         element.onclick = (function(i){return function (){
             GetJson()
