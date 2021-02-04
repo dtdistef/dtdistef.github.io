@@ -30,5 +30,6 @@
             "symbol": "ype_GH",
             "color": "orange"
         }
-    ]
+    ],
+    "questions_file": "ype_questions.json"
 }

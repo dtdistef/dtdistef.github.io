@@ -30,5 +30,6 @@
             "symbol": "swct_WC",
             "color": "pink"
         }
-    ]
+    ],
+    "questions_file": "swct_questions.json"
 }
