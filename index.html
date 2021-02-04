@@ -101,8 +101,10 @@
                 element.value = localStorage.getItem(symbol);
             }
             element.onchange = (function(element, symbol){return function (){
+                console.log("Symbol: " + symbol + "| Value: " + element.value)
                 localStorage.setItem(symbol, element.value);
             }; })(element, symbol);
+            
             document.getElementById("buttons").appendChild(element);
         }
 
