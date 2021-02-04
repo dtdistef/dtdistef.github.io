@@ -26,6 +26,12 @@
             font-size: 16px;
             cursor: pointer;
         }
+        .grid-container > div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
     </style>
 </head>
 <body>
@@ -47,6 +53,53 @@
         let data = await fetch_response.json();
 
         DisplayCategories(data)
+    }
+
+    async function GetCategories(file_name, symbol, jsonCategories){
+        let fetch_response = await fetch(file_name);
+        let data = await fetch_response.json();
+
+        DisplayQuestion(data, symbol, jsonCategories)
+    }
+
+    function DisplayQuestion(data, symbol, jsonCategories){
+        //Currently selected question number
+        var question_num = Number(document.getElementById(symbol).value);
+        var cards = data.cards;
+        document.getElementById("buttons").innerHTML = '';
+        document.getElementById("buttons").style.gridTemplateColumns = "1fr 1fr"
+        //If the card is outside the range of the deck
+        if(question_num > cards.length){
+            question_num = 0;
+        }
+
+        var question = cards[question_num][symbol].question;
+        var answer = cards[question_num][symbol].answer;
+
+        localStorage[symbol] = question_num + 1
+
+        document.getElementById("head").textContent = "Question:";
+        var question_text = document.createElement("div");
+        question_text.innerHTML = question;
+        var answer_head = document.createElement("div");
+        answer_head.innerHTML = 'Answer:'
+        var answer_text = document.createElement("div");
+        answer_text.innerHTML = answer;
+
+        document.getElementById("buttons").appendChild(question_text);
+        document.getElementById("buttons").appendChild(answer_head);
+        document.getElementById("buttons").appendChild(answer_text);
+
+        var element = document.createElement("button");
+        element.style.backgroundColor = "black"
+        element.textContent = "Back";
+
+        element.onclick = (function(jsonCategories){return function (){
+            GetCategories(jsonCategories)
+        }; })(jsonCategories);
+        
+        document.getElementById("buttons").appendChild(element)
+
     }
 
     function DisplayDecks(jsonOfDecks){
@@ -75,24 +128,23 @@
         document.getElementById("buttons").innerHTML = '';
         document.getElementById("buttons").style.gridTemplateColumns = "5fr 1fr"
         var categories = jsonCategories.categories;
+        var questions_file = jsonCategories.questions_file;
         var numOfCategories = categories.length;
+        var symbol = categories[i]["symbol"];
         for (i = 0; i < numOfCategories; i++){
             var element = document.createElement("button");
             element.style.backgroundColor = categories[i]["color"];
             element.style.fontSize = ((window.innerWidth * .80) / 25) + 'px';
             element.textContent = categories[i]["name"];
 
-            //element.onclick = (function(i){return function (){
-            //    DisplayCategories(i)
-            //}; })(i);
+            element.onclick = (function(questions_file, symbol, jsonCategories){return function (){
+                GetQuestions(questions_file, symbol, jsonCategories)
+            }; })(questions_file, symbol, jsonCategories);
 
             document.getElementById("buttons").appendChild(element);
 
             element = document.createElement("input");
-            element.setAttribute("type", "text");
-            var symbol = categories[i]["symbol"];
-            console.log(categories[i])
-            console.log(symbol)
+            element.setAttribute("type", "number");
             if(localStorage.getItem(symbol) == null)
             {
                 localStorage.setItem(symbol, 0);
@@ -103,10 +155,10 @@
                 element.value = localStorage.getItem(symbol);
             }
             element.onchange = (function(element, symbol){return function (){
-                console.log("Symbol: " + symbol + "| Value: " + element.value)
                 localStorage.setItem(symbol, element.value);
             }; })(element, symbol);
 
+            element.setAttribute("id", symbol);
             document.getElementById("buttons").appendChild(element);
         }
 
