@@ -2,26 +2,32 @@
     "categories": [
         {
             "name": "People & Places",
+            "symbol": "PP",
             "color": "blue"
         },
         {
             "name": "Good Times",
+            "symbol": "GT",
             "color": "pink"
         },
         {
             "name": "Science & Technology",
+            "symbol": "ST",
             "color": "gold"
         },
         {
             "name": "Art & Culture",
+            "symbol": "AC",
             "color": "brown"
         },
         {
             "name": "Natural World",
+            "symbol": "NW",
             "color": "green"
         },
         {
             "name": "Games & Hobbies",
+            "symbol": "GH",
             "color": "orange"
         }
     ]
