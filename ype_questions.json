@@ -96,7 +96,7 @@
                 "answer": "Two short oars"
             },
             "ype_AC": {
-                "question": "What color rabbit doe Alice follow down the hole to Wonderland?",
+                "question": "What color rabbit does Alice follow down the hole to Wonderland?",
                 "answer": "White"
             },
             "ype_NW": {
@@ -155,11 +155,578 @@
             },
             "ype_NW": {
                 "question": "How many legs does a slowworm lizard have?",
-                "answer": "Zero (It looks like a work)"
+                "answer": "Zero (It looks like a worm)"
             },
             "ype_GH": {
                 "question": "Which kind of skiers ski against the clock through a series of 'gates' - cross country skiers or slalom racers?",
                 "answer": "Slalom racers"
+            }
+        },
+        {
+            "number": "170",
+            "ype_PP": {
+                "question": "What New England state was the last of the original 13 to join the Union?",
+                "answer": "Rhode Island"
+            },
+            "ype_GT": {
+                "question": "What's the nickname of John Entwhistle of The Who?",
+                "answer": "The Ox"
+            },
+            "ype_ST": {
+                "question": "What's the continuous flame that burns in appliances fueled by natural gas called?",
+                "answer": "The pilot light"
+            },
+            "ype_AC": {
+                "question": "What's the only food that Christopher Robin's friend Tigger likes to eat?",
+                "answer": "Extract of malt"
+            },
+            "ype_NW": {
+                "question": "What's a male whale called?",
+                "answer": "A bull"
+            },
+            "ype_GH": {
+                "question": "How many pieces does each player have at the start of a game of chess?",
+                "answer": "Sixteen"
+            }
+        },
+        {
+            "number": "277",
+            "ype_PP": {
+                "question": "What were members of the National Socialist German Workers' Party better known as?",
+                "answer": "Nazis"
+            },
+            "ype_GT": {
+                "question": "Is there a picture of a dad on \"Dad's\" cookie boxes?",
+                "answer": "No"
+            },
+            "ype_ST": {
+                "question": "Is an asteroid smaller or larger than a planet?",
+                "answer": "Smaller"
+            },
+            "ype_AC": {
+                "question": "What saint rescued a princess who was about to be eaten by a dragon?",
+                "answer": "Saint George"
+            },
+            "ype_NW": {
+                "question": "Which one does 90 percent of the hunting - the male or female lion?",
+                "answer": "The female"
+            },
+            "ype_GH": {
+                "question": "Why does a backpacker carry dehydrated food instead of canned food?",
+                "answer": "Because it's lighter"
+            }
+        },
+        {
+            "number": "267",
+            "ype_PP": {
+                "question": "What three colors make up the Italian flag?",
+                "answer": "Green, red, white"
+            },
+            "ype_GT": {
+                "question": "What cartoon character did Walt Disney once describe as 'a nice fellow who never does anybody any harm'?",
+                "answer": "Mickey Mouse"
+            },
+            "ype_ST": {
+                "question": "What did Sigmund Freud call 'the guardian of sleep'?",
+                "answer": "Dreams"
+            },
+            "ype_AC": {
+                "question": "What's the Mona Lisa doing - laughing, smiling, or winking?",
+                "answer": "Smiling"
+            },
+            "ype_NW": {
+                "question": "What are poisonous mushrooms called?",
+                "answer": "Toadstools"
+            },
+            "ype_GH": {
+                "question": "How many wheels does a skateboard have?",
+                "answer": "Four"
+            }
+        },
+        {
+            "number": "247",
+            "ype_PP": {
+                "question": "How old was Edmund Hillary when he climbed Mount Everest - 34, 54, or 74?",
+                "answer": "34"
+            },
+            "ype_GT": {
+                "question": "What TV show features Blair, Jo, Natalie, and Tootie?",
+                "answer": "The Facts of Life"
+            },
+            "ype_ST": {
+                "question": "What's the term for the instrument doctors use to listen to the sound inside the body?",
+                "answer": "Stethoscope"
+            },
+            "ype_AC": {
+                "question": "What did Yankee Doodle call the feather he stuck in his cap?",
+                "answer": "Macaroni"
+            },
+            "ype_NW": {
+                "question": "Which lion does most of the hunting - the male or the female?",
+                "answer": "The female"
+            },
+            "ype_GH": {
+                "question": "Which way does the king of spades face in a standard deck of cards?",
+                "answer": "Right"
+            }
+        },
+        {
+            "number": "227",
+            "ype_PP": {
+                "question": "What explorer discovered Florida - Gasper Corte-Real, Pedro Alvarez Cabral or Juan Ponce de Leon?",
+                "answer": "Juan Ponce de Leon"
+            },
+            "ype_GT": {
+                "question": "What country does the movie 'Born Free' take place in?",
+                "answer": "Kenya"
+            },
+            "ype_ST": {
+                "question": "What does a Schmidt camera take photographs of - germs, plants, or the stars?",
+                "answer": "The stars"
+            },
+            "ype_AC": {
+                "question": "Who cries: 'Happy Christmas to all, and to all a good night' - Rumpelstiltskin, Saint Nick, or Tiny Tim?",
+                "answer": "Saint Nick"
+            },
+            "ype_NW": {
+                "question": "What are Calico Fans, Black Mollys and Tiger Barbs?",
+                "answer": "Tropical fish"
+            },
+            "ype_GH": {
+                "question": "How many pieces of leather makeup an official softball?",
+                "answer": "Two"
+            }
+        },
+        {
+            "number": "294",
+            "ype_PP": {
+                "question": "What member of a Middle Ages court carried a rattle and wore a cap with donkey's ears?",
+                "answer": "The court jester"
+            },
+            "ype_GT": {
+                "question": "What Walt Disney movie has the same name as a strange gravity whirlpool in space?",
+                "answer": "The Black Hole"
+            },
+            "ype_ST": {
+                "question": "Who developed the first rabies vaccine - Thomas Edison, Louis Pasteur, or Joseph Priestley?",
+                "answer": "Louis Pasteur"
+            },
+            "ype_AC": {
+                "question": "What does a 'teetotaler' refuse to drink?",
+                "answer": "Alcohol"
+            },
+            "ype_NW": {
+                "question": "How many fillets come from one fish?",
+                "answer": "Two"
+            },
+            "ype_GH": {
+                "question": "What's the long straight part of a fishing hook called - the shaft, shank, or skirt?",
+                "answer": "The shank"
+            }
+        },
+        {
+            "number": "171",
+            "ype_PP": {
+                "question": "Where were kites invented - China, Japan, or Mexico?",
+                "answer": "China"
+            },
+            "ype_GT": {
+                "question": "What's the name of the vehicle that carries Strawberry Shortcake and her friends around Strawberry Land?",
+                "answer": "Big Berry Trolley"
+            },
+            "ype_ST": {
+                "question": "What's a 'calliope' - a cooking utensil, musical instrument, or old-fashioned hot tub?",
+                "answer": "A musical instrument"
+            },
+            "ype_AC": {
+                "question": "What city do the Darling children live in, in 'Peter Pan'?",
+                "answer": "London"
+            },
+            "ype_NW": {
+                "question": "How many eyelids do birds have on each eye?",
+                "answer": "Three"
+            },
+            "ype_GH": {
+                "question": "What star player led Brazil to an unprecedented third World Cup soccer victory?",
+                "answer": "Pele"
+            }
+        },
+        {
+            "number": "161",
+            "ype_PP": {
+                "question": "What country's flag is made up of a red circle on a white background?",
+                "answer": "Japan's"
+            },
+            "ype_GT": {
+                "question": "What kind of hat does Yosemite Sam wear while feuding with Bugs Bunny?",
+                "answer": "An oversized cowboy hat"
+            },
+            "ype_ST": {
+                "question": "How many days are there in a Leap Year?",
+                "answer": "366"
+            },
+            "ype_AC": {
+                "question": "What's the last name of the Three Billy Goats?",
+                "answer": "Gruff"
+            },
+            "ype_NW": {
+                "question": "What multicolored pearl is often inlaid in Mexican silver jewelry?",
+                "answer": "Mother-of-pearl"
+            },
+            "ype_GH": {
+                "question": "What National Football League team once boasted the Steel Curtain defense?",
+                "answer": "The Pittsburgh Steelers"
+            }
+        },
+        {
+            "number": "224",
+            "ype_PP": {
+                "question": "What country's government-controlled news agency is called Tass?",
+                "answer": "The Soviet Union's"
+            },
+            "ype_GT": {
+                "question": "Who is HAL's programmer in '2001: A Space Odyssey' - Mr. Hope, Mr. Langley, or Mr. Smith?",
+                "answer": "Mr. Langley"
+            },
+            "ype_ST": {
+                "question": "What toothpaste claims to help stop catvities before they start?",
+                "answer": "Colgate"
+            },
+            "ype_AC": {
+                "question": "What Dr. Seuss elephant hatches a bird's egg?",
+                "answer": "Horton"
+            },
+            "ype_NW": {
+                "question": "How do seals get air while under water - by holding their breath, from a sac in their heads or through breathing holes in the ice?",
+                "answer": "Through breathing holes in the ice"
+            },
+            "ype_GH": {
+                "question": "How many minutes long is a hooking penalty in hockey?",
+                "answer": "Two"
+            }
+        },
+        {
+            "number": "274",
+            "ype_PP": {
+                "question": "What parallel of latitude divides much of Canada from the US - the 39th, 49th, or 59th?",
+                "answer": "The 49th"
+            },
+            "ype_GT": {
+                "question": "What type of spicy sausage is often served on pizzas?",
+                "answer": "Pepperoni"
+            },
+            "ype_ST": {
+                "question": "What kind of wind blows a comet's tail into space?",
+                "answer": "Solar Wind"
+            },
+            "ype_AC": {
+                "question": "What two brothers named Jacob and Wilhelm collected fairy tales?",
+                "answer": "The Brothers Grimm"
+            },
+            "ype_NW": {
+                "question": "Which has more teeth - a dog or a cat?",
+                "answer": "A dog"
+            },
+            "ype_GH": {
+                "question": "Is it a fault in tennis if the server catches the ball instead of hitting it after throwing it up?",
+                "answer": "No"
+            }
+        },
+        {
+            "number": "191",
+            "ype_PP": {
+                "question": "What famous captain of the 'Bounty' became governor of New South Wales, Australia?",
+                "answer": "William Bligh"
+            },
+            "ype_GT": {
+                "question": "What producer-director-actor worked on 'Young Frankenstein', 'Blazing Saddles', and 'History of the World, Part I'?",
+                "answer": "Mel Brooks"
+            },
+            "ype_ST": {
+                "question": "What timely device was Louis Cartier the first to make, in 1904?",
+                "answer": "The wristwatch"
+            },
+            "ype_AC": {
+                "question": "What does Beauty's father steal from the Beast?",
+                "answer": "A rose"
+            },
+            "ype_NW": {
+                "question": "Does the cone-bearing eastern larch, or tamarack, lose its needles in the fall and go naked through the winter?",
+                "answer": "Yes"
+            },
+            "ype_GH": {
+                "question": "What puffy pants are worn for horseback riding?",
+                "answer": "Jodhpurs"
+            }
+        },
+        {
+            "number": "244",
+            "ype_PP": {
+                "question": "How many states does California border?",
+                "answer": "3"
+            },
+            "ype_GT": {
+                "question": "How many men are there in the rock group Kiss?",
+                "answer": "4"
+            },
+            "ype_ST": {
+                "question": "What common household appliance boasts a 'bread carriage'?",
+                "answer": "A toaster"
+            },
+            "ype_AC": {
+                "question": "What, according to the poem, can you use to keep peas on your knife?",
+                "answer": "Honey"
+            },
+            "ype_NW": {
+                "question": "Which is bigger - a bicycle wheel or the bloom of a large stinking corpse lily?",
+                "answer": "The bloom of a large stinking corpse lily"
+            },
+            "ype_GH": {
+                "question": "Is it better to tie up to dock's lee ide or windward side?",
+                "answer": "Its lee side"
+            }
+        },
+        {
+            "number": "264",
+            "ype_PP": {
+                "question": "What are the Kalahari, Sahara, and Namib?",
+                "answer": "Deserts"
+            },
+            "ype_GT": {
+                "question": "Where do TV's Jessie Brewer, Amy Vining, Ruby Anderson and Bobbie Spencer work?",
+                "answer": "General Hospital"
+            },
+            "ype_ST": {
+                "question": "What does the abbreviation 'Inc.' mean at the end of a company's name?",
+                "answer": "Incorporated"
+            },
+            "ype_AC": {
+                "question": "What are the names of the three Darling children in 'Peter Pan'?",
+                "answer": "John, Michael, Wendy"
+            },
+            "ype_NW": {
+                "question": "Which one is a primary color - blue, green, or orange?",
+                "answer": "Blue"
+            },
+            "ype_GH": {
+                "question": "What are backpackers talking about when they say: 'If you carried it in, you can carry it out'?",
+                "answer": "Garbage"
+            }
+        },
+        {
+            "number": "133",
+            "ype_PP": {
+                "question": "What early President called the job 'a splendid misery'?",
+                "answer": "Thomas Jefferson"
+            },
+            "ype_GT": {
+                "question": "What food company makes noodle animals called Zoodles?",
+                "answer": "Libby's"
+            },
+            "ype_ST": {
+                "question": "What does a zoologist study?",
+                "answer": "Animals"
+            },
+            "ype_AC": {
+                "question": "Where did 'Peter, Peter, Pumpkin Eater' put his wife when he couldn't keep her?",
+                "answer": "In a pumpkin shell"
+            },
+            "ype_NW": {
+                "question": "Which is wider in humans - the small instestine or the large intestine?",
+                "answer": "The large intestine"
+            },
+            "ype_GH": {
+                "question": "What sport is Ralph Lauren known for - bowling, lacrosse, or polo?",
+                "answer": "Polo"
+            }
+        },
+        {
+            "number": "231",
+            "ype_PP": {
+                "question": "What portly President hanged a man while serving as a sheriff in Buffalo?",
+                "answer": "Grover Cleveland"
+            },
+            "ype_GT": {
+                "question": "What singer-actor was the song Edelweiss written for - Theodore Bikel, Gene Kelly, or Christopher Plummer?",
+                "answer": "Theodore Bikel"
+            },
+            "ype_ST": {
+                "question": "Where would you be if you were in a 'dhow' - on land, in the water or in the air?",
+                "answer": "In the water"
+            },
+            "ype_AC": {
+                "question": "Which instrument isn't played with a bow - the double bass, harp, or violin",
+                "answer": "The harp"
+            },
+            "ype_NW": {
+                "question": "What's the largest tiger in the world - the Bengal tiger, Siberian tiger, or Tasmanian tiger?",
+                "answer": "The Siberian tiger"
+            },
+            "ype_GH": {
+                "question": "How many peg holes are there in a row in a regular game of 'Master Mind'?",
+                "answer": "Four"
+            }
+        },
+        {
+            "number": "183",
+            "ype_PP": {
+                "question": "What continent would you find the Mountains of the Moon on - Africa, Asia, or Europe?",
+                "answer": "Africa"
+            },
+            "ype_GT": {
+                "question": "What color is the K on a box of Kellog's Special K?",
+                "answer": "Red"
+            },
+            "ype_ST": {
+                "question": "What did most people in Galileo's time think was the center of the universe?",
+                "answer": "Earth"
+            },
+            "ype_AC": {
+                "question": "Why did Count Dracula consider mirrors a dead giveaway?",
+                "answer": "Vampires have no reflection"
+            },
+            "ype_NW": {
+                "question": "What vegetable has a 'sweet banana' variety?",
+                "answer": "The pepper"
+            },
+            "ype_GH": {
+                "question": "What piece of sailing equipment has corners described as 'head', 'tack' and 'clew'?",
+                "answer": "A sail"
+            }
+        },
+        {
+            "number": "281",
+            "ype_PP": {
+                "question": "What member of the Kennedy family was the first elected to the Senate in 1962?",
+                "answer": "Teddy Kennedy"
+            },
+            "ype_GT": {
+                "question": "What color is the character Croc in the comic strip 'Animal Crackers'?",
+                "answer": "Green"
+            },
+            "ype_ST": {
+                "question": "What country builds the most bicycles each year?",
+                "answer": "The United States"
+            },
+            "ype_AC": {
+                "question": "What does Old Mother Hubbard hope to fetch from the cupboard for her dog - a biscuit, a bone, or a leash?",
+                "answer": "A bone"
+            },
+            "ype_NW": {
+                "question": "What vegetable 'bleeds' if all the stalk are cut off before cooking?",
+                "answer": "The beet"
+            },
+            "ype_GH": {
+                "question": "What can be made by dipping, pouring, or casting?",
+                "answer": "Candles"
+            }
+        },
+        {
+            "number": "138",
+            "ype_PP": {
+                "question": "What's the capital of the Soviet Union?",
+                "answer": "Moscow"
+            },
+            "ype_GT": {
+                "question": "Who does Daniel J. Travanti play on TV's 'Hill Street Blues'?",
+                "answer": "Frank Furillo"
+            },
+            "ype_ST": {
+                "question": "What kind of outdoor clock has no moving parts?",
+                "answer": "A sundial"
+            },
+            "ype_AC": {
+                "question": "What date is Boxing Day observed on?",
+                "answer": "December 26th"
+            },
+            "ype_NW": {
+                "question": "Is Earth's core solid, liquid, or both",
+                "answer": "Both"
+            },
+            "ype_GH": {
+                "question": "How many minutes long is a misconduct penalty in hockey?",
+                "answer": "Ten"
+            }
+        },
+        {
+            "number": "240",
+            "ype_PP": {
+                "question": "What European country's people call an expressway an 'autostrada'?",
+                "answer": "Italy's"
+            },
+            "ype_GT": {
+                "question": "Does the 'Planter`s Peanuts' man wear glasses, a monocole, or contact lenses?",
+                "answer": "A monocole"
+            },
+            "ype_ST": {
+                "question": "Which pedal is in the middle in a car with standard transmission - the accelerator, brake, or clutch?",
+                "answer": "The brake"
+            },
+            "ype_AC": {
+                "question": "What's left after Pandora lets all the evil things out of her box?",
+                "answer": "Hope"
+            },
+            "ype_NW": {
+                "question": "Are you standing or sitting if you put your coccyx on the floor?",
+                "answer": "Sitting (The coccyx is the tail bone)"
+            },
+            "ype_GH": {
+                "question": "Does the hammer thrown in the Olympic hammer event have a wooden handle?",
+                "answer": "No"
+            }
+        },
+        {
+            "number": "211",
+            "ype_PP": {
+                "question": "What's the world's largest fresh-water lake?",
+                "answer": "Lake Superior"
+            },
+            "ype_GT": {
+                "question": "What color is Yogi Bear's hat?",
+                "answer": "Green"
+            },
+            "ype_ST": {
+                "question": "What kind of chair lets a baby see eye-to-eye with adults?",
+                "answer": "A highchair"
+            },
+            "ype_AC": {
+                "question": "How many angels keep watch over the child in the opera 'Hansel and Gretel' - 10, 14, or 18?",
+                "answer": "14"
+            },
+            "ype_NW": {
+                "question": "What are 'Stilton', 'Double Gloucester', 'Cheshire', and 'Wensleydale'?",
+                "answer": "Kinds of cheese"
+            },
+            "ype_GH": {
+                "question": "What kind of shoes come in Alaskan and Michigan styles?",
+                "answer": "Snowshoes"
+            }
+        },
+        {
+            "number": "290",
+            "ype_PP": {
+                "question": "Which isn't a real place - Bikini Atoll or No Bikini Atoll?",
+                "answer": "No Bikini Atoll"
+            },
+            "ype_GT": {
+                "question": "What studio made the movie 'Bambi'?",
+                "answer": "Disney"
+            },
+            "ype_ST": {
+                "question": "Do divers wear suits to keep dry?",
+                "answer": "No"
+            },
+            "ype_AC": {
+                "question": "Which of Brobdingnag, Lilliput and Slobbovia does Gulliver NOT visit?",
+                "answer": "Slobbovia"
+            },
+            "ype_NW": {
+                "question": "What do badgers live in - flets, nets, or setts?",
+                "answer": "Setts"
+            },
+            "ype_GH": {
+                "question": "What's a person who's playing the Bulldog Drummond doing - playing cards, flying a kite or training a dog?",
+                "answer": "Flying a kite"
             }
         }
     ]
