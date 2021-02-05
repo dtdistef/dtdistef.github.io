@@ -154,6 +154,7 @@
 
             element = document.createElement("input");
             element.setAttribute("type", "number");
+            element.style.fontSize = ((window.innerWidth * .80) / 25) + 'px';
             if(localStorage.getItem(symbol) == null)
             {
                 localStorage.setItem(symbol, 0);
